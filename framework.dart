@@ -37,17 +37,17 @@ void render(Component component, Element bindTo) {
   bindTo.append(component.createHtml(bindTo));
 }
 
-Element div(Map<String, dynamic> a, List<dynamic> c) => h("div", a, c);
-Element a(Map<String, dynamic> a, List<dynamic> c) => h("a", a, c);
-Element span(Map<String, dynamic> a, List<dynamic> c) => h("span", a, c);
-Element h1(Map<String, dynamic> a, List<dynamic> c) => h("h1", a, c);
-Element h2(Map<String, dynamic> a, List<dynamic> c) => h("h2", a, c);
-Element h3(Map<String, dynamic> a, List<dynamic> c) => h("h3", a, c);
-Element h4(Map<String, dynamic> a, List<dynamic> c) => h("h4", a, c);
-Element h5(Map<String, dynamic> a, List<dynamic> c) => h("h5", a, c);
-Element h6(Map<String, dynamic> a, List<dynamic> c) => h("h6", a, c);
-Element ul(Map<String, dynamic> a, List<dynamic> c) => h("ul", a, c);
-Element li(Map<String, dynamic> a, List<dynamic> c) => h("li", a, c);
-Element input(Map<String, dynamic> a, List<dynamic> c) => h("input", a, c);
-Element textarea(Map<String, dynamic> a, List<dynamic> c) => h("textarea", a, c);
-Element button(Map<String, dynamic> a, List<dynamic> c) => h("button", a, c);
+Element a(Map<String, dynamic> attr, List<dynamic> children) => h("a", attr, children);
+Element h1(Map<String, dynamic> attr, List<dynamic> children) => h("h1", attr, children);
+Element h2(Map<String, dynamic> attr, List<dynamic> children) => h("h2", attr, children);
+Element h3(Map<String, dynamic> attr, List<dynamic> children) => h("h3", attr, children);
+Element h4(Map<String, dynamic> attr, List<dynamic> children) => h("h4", attr, children);
+Element h5(Map<String, dynamic> attr, List<dynamic> children) => h("h5", attr, children);
+Element h6(Map<String, dynamic> attr, List<dynamic> children) => h("h6", attr, children);
+Element ul(Map<String, dynamic> attr, List<dynamic> children) => h("ul", attr, children);
+Element li(Map<String, dynamic> attr, List<dynamic> children) => h("li", attr, children);
+Element div(Map<String, dynamic> attr, List<dynamic> children) => h("div", attr, children);
+Element span(Map<String, dynamic> attr, List<dynamic> children) => h("span", attr, children);
+Element input(Map<String, dynamic> attr, List<dynamic> children) => h("input", attr, children);
+Element button(Map<String, dynamic> attr, List<dynamic> children) => h("button", attr, children);
+Element textarea(Map<String, dynamic> attr, List<dynamic> children) => h("textarea", attr, children);
